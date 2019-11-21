@@ -19,7 +19,7 @@
 
  Please validate that the pixel is correctly added to ALL pages on your website to make sure data is properly collected.
 
- **About Snowplow**
+# About Snowplow
 
 Snowplow is an enterprise-strength marketing and product analytics platform. It does four things:
 
