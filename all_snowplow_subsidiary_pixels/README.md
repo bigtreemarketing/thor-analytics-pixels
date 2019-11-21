@@ -3,6 +3,22 @@
 <img src="https://d3i6fms1cm1j0i.cloudfront.net/github-wiki/images/snowplow-new-logo-large.png"
  alt="Snowplow logo" title="Snowplow" align="right" />
 
+ ## Pixel Installation
+
+ You will install the Thor Analytics pixel just like you'd install Google Analytics or the Facebook Pixel.
+
+ Please follow these instructions.
+
+ **Install with Google Tag Manager** If you're currently using Google Tag Manager you can easily deploy your Thor Analytics pixel.
+
+ 1. Create a new Custom HTML Tag
+ 2. Copy and paste the full script into the Custom HTML Window
+ 3. Add a trigger to fire the pixel on All Pages
+
+ **Non Tag Manager Installation** If you do not have a Tag Manager installed on your website, you may hard code the Thor Analytics pixel into the **head** section of all pages on your website.
+
+ Please validate that the pixel is correctly added to ALL pages on your website to make sure data is properly collected.
+
 Snowplow is an enterprise-strength marketing and product analytics platform. It does four things:
 
 1. Identifies your users, and tracks the way they engage with your website.
@@ -16,22 +32,6 @@ Key Benefits:
 3. Understand the performance of Thor's referral traffic to you, allowing better funneling of the correct new prospects for your brand.
 
 **To find out more, please check out the [Snowplow website][website] and the [Snowplow wiki][wiki].**
-
-## Pixel Installation
-
-You will install the Thor Analytics pixel just like you'd install Google Analytics or the Facebook Pixel.
-
-Please follow these instructions.
-
-**Install with Google Tag Manager** If you're currently using Google Tag Manager you can easily deploy your Thor Analytics pixel.
-
-1. Create a new Custom HTML Tag
-2. Copy and paste the full script into the Custom HTML Window
-3. Add a trigger to fire the pixel on All Pages
-
-**Non Tag Manager Installation** If you do not have a Tag Manager installed on your website, you may hard code the Thor Analytics pixel into the **head** section of all pages on your website.
-
-Please validate that the pixel is correctly added to ALL pages on your website to make sure data is properly collected.
 
 ## Snowplow technology 101
 
