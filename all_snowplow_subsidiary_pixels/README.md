@@ -1,10 +1,5 @@
 # Snowplow Analytics for Thor Industries
 
-[![Build Status][travis-image]][travis]
-[![Release][release-image]][releases]
-[![License][license-image]][license]
-[![Join the chat at https://gitter.im/snowplow/snowplow][gitter-image]][gitter]
-
 <img src="https://d3i6fms1cm1j0i.cloudfront.net/github-wiki/images/snowplow-new-logo-large.png"
  alt="Snowplow logo" title="Snowplow" align="right" />
 
@@ -15,6 +10,22 @@ Snowplow is an enterprise-strength marketing and product analytics platform. It 
 3. Lets you leverage the biggest range of tools to analyze that data, including big data tools (e.g. Spark) via EMR or more traditional tools e.g. Looker, Mode, Superset, Re:dash to analyze that behavioural data
 
 **To find out more, please check out the [Snowplow website][website] and the [Snowplow wiki][wiki].**
+
+## Pixel Installation
+
+You will install the Thor Analytics pixel just like you'd install Google Analytics or the Facebook Pixel.
+
+Please follow these instructions.
+
+* **Install with Google Tag Manager** If you're currently using Google Tag Manager you can easily deploy your Thor Analytics pixel.
+
+1. Create a new Custom HTML Tag
+2. Copy and paste the full script into the Custom HTML Window
+3. Add a trigger to fire the pixel on All Pages
+
+* **Non Tag Manager Installation** If you do not have a Tag Manager installed on your website, you may hard code the Thor Analytics pixel into the <head> section of all pages on your website.
+
+Please validate that the pixel is correctly added to ALL pages on your website to make sure data is properly collected.
 
 ## Snowplow technology 101
 
@@ -30,22 +41,6 @@ To briefly explain these six sub-systems:
 * **Analytics** are performed on the Snowplow events or on the aggregate tables.
 
 **For more information on the current Snowplow architecture, please see the [Technical architecture][architecture-doc]**.
-
-## Find out more
-
-| **[Technical Docs][techdocs]**     | **[Setup Guide][setup]**     | **[Roadmap][roadmap]**           | **[Contributing][contributing]**           |
-|-------------------------------------|-------------------------------|-----------------------------------|---------------------------------------------|
-| [![i1][techdocs-image]][techdocs] | [![i2][setup-image]][setup] | [![i3][roadmap-image]][roadmap] | [![i4][contributing-image]][contributing] |
-
-## Contributing
-
-We're committed to a loosely-coupled architecture for Snowplow and would love to get your contributions within each of the six sub-systems.
-
-If you would like help implementing a new tracker, adding an additional enrichment or loading Snowplow events into an alternative database, check out our **[Contributing][contributing]** page on the wiki!
-
-## Questions or need help?
-
-Check out the **[Talk to us][talk-to-us]** page on our wiki.
 
 ## Copyright and license
 
