@@ -3,11 +3,17 @@
 <img src="https://d3i6fms1cm1j0i.cloudfront.net/github-wiki/images/snowplow-new-logo-large.png"
  alt="Snowplow logo" title="Snowplow" align="right" />
 
-Snowplow is an enterprise-strength marketing and product analytics platform. It does three things:
+Snowplow is an enterprise-strength marketing and product analytics platform. It does four things:
 
-1. Identifies your users, and tracks the way they engage with your website or application
-2. Stores your users' behavioural data in a scalable "event data warehouse" you control: in Amazon S3 and (optionally) Amazon Redshift or Postgres
-3. Lets you leverage the biggest range of tools to analyze that data, including big data tools (e.g. Spark) via EMR or more traditional tools e.g. Looker, Mode, Superset, Re:dash to analyze that behavioural data
+1. Identifies your users, and tracks the way they engage with your website.
+2. Stores your users' behavioural data in a scalable "event data warehouse" owned by Thor Industries: Data will be stored in a secure high-performance Snowflake database. You will be granted access to your website data upon request.
+3. Lets you leverage the biggest range of tools to analyze that data, including big data tools (e.g. Spark) via EMR or more traditional tools e.g. Looker, PowerBI, Mode, Superset, Re:dash to analyze your data.
+4. Allows you to easily connect additional data sources to better understand prospect journeys, what marketing is effective, what website content is compelling, and answer other key questions.
+
+Key Benefits:
+1. Granular and robust event data, allowing in-depth customer journey mapping.
+2. Cookies persist longer than 24 hours / 7 days on Safari, allowing you to track longer customer journeys.
+3. Understand the performance of Thor's referral traffic to you, allowing better funneling of the correct new prospects for your brand.
 
 **To find out more, please check out the [Snowplow website][website] and the [Snowplow wiki][wiki].**
 
@@ -17,13 +23,13 @@ You will install the Thor Analytics pixel just like you'd install Google Analyti
 
 Please follow these instructions.
 
-* **Install with Google Tag Manager** If you're currently using Google Tag Manager you can easily deploy your Thor Analytics pixel.
+**Install with Google Tag Manager** If you're currently using Google Tag Manager you can easily deploy your Thor Analytics pixel.
 
 1. Create a new Custom HTML Tag
 2. Copy and paste the full script into the Custom HTML Window
 3. Add a trigger to fire the pixel on All Pages
 
-* **Non Tag Manager Installation** If you do not have a Tag Manager installed on your website, you may hard code the Thor Analytics pixel into the <head> section of all pages on your website.
+**Non Tag Manager Installation** If you do not have a Tag Manager installed on your website, you may hard code the Thor Analytics pixel into the **head** section of all pages on your website.
 
 Please validate that the pixel is correctly added to ALL pages on your website to make sure data is properly collected.
 
