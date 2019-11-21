@@ -19,6 +19,8 @@
 
  Please validate that the pixel is correctly added to ALL pages on your website to make sure data is properly collected.
 
+ **About Snowplow**
+
 Snowplow is an enterprise-strength marketing and product analytics platform. It does four things:
 
 1. Identifies your users, and tracks the way they engage with your website.
