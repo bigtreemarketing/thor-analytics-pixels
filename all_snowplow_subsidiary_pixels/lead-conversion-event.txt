@@ -1,0 +1,11 @@
+<!-- THOR Industries Analytics starts collecting -->
+<script type="text/javascript">
+window.snowplow('trackSelfDescribingEvent', {
+    schema: 'iglu:com.thorindustries/subsidiary_leads/jsonschema/1-0-0',
+    data: {
+      formTitle: 'INSERT FORM TITLE HERE',  // REQUIRED Field. 255 char limit
+      rvName: 'INSERT RV NAME HERE - if applicable', // Optional field. 255 char limit.
+    }
+});
+</script>
+<!-- THOR Industries Analytics stops collecting -->
